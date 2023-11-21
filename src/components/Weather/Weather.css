@@ -1,0 +1,179 @@
+@font-face {
+    font-family:"croissan-regular";
+    src: url(../fonts/croissantone-regular.woff) format("woff"),url(../fonts/croissantone-regular.woff2) format("woff2");
+  }
+  
+  @font-face{
+    font-family:"ibm-bold";
+    src:url(../fonts/ibmplexsans-bolditalic.woff)format("woff"),url(../fonts/croissantone-regular.woff2) format("woff2");
+  }
+   
+  @font-face{
+    font-family:"pacifio-regular";
+    src:url(../fonts/pacifico-regular.woff)format("woff"),url(../fonts/pacifico-regular.woff2) format("woff2") ;
+  }
+  
+  @font-face{
+    font-family:"ibm-bolditalic";
+    src:url(../fonts/ibmplexsans-bolditalic.woff)format("woff"),url(../fonts/ibmplexsans-bolditalic.woff2)format("woff2");
+  }
+  
+  @font-face{
+    font-family:"ibm-extralight";
+    src:url(../fonts/ibmplexsans-extralight.woff)format("woff"),url(../fonts/ibmplexsans-extralight.woff2)format("woff2");
+  }
+  
+  @font-face{
+    font-family:"ibm-extralightitalic";
+    src:url(../fonts/ibmplexsans-extralightitalic.woff)format("woff"),url(../fonts/ibmplexsans-extralightitalic.woff2)format("woff2");
+  }
+  
+  @font-face{
+  font-family:"ibm-italic";
+  src:url(../fonts/ibmplexsans-italic.woff)format("woff"),url(../fonts/ibmplexsans-italic.woff2)format("woff2");
+  }
+  
+    :root{
+  
+  --fontcrossian-regular: "croissan-regular";
+  --fontibm-bold:"ibm-bold";
+  --fontpacifio-regular:"pacifio-regular";
+  --fontibm-bolditalic: "ibm-bolditalic";
+  --fontibm-extralight:"ibm-extralight";
+  --fontibm-etxtralightitalic:"ibm-extralightitalic";
+  --fontibm-italic:"ibm-italic"; 
+  
+    }
+  
+   
+  
+  
+  *{
+      margin:0;
+      padding:0;
+      box-sizing: content-box;
+    }
+    body{
+   background-color: #e9e8e8;
+    }
+    
+    .container{
+      margin:auto;
+      margin-top:75px;
+      background-image:linear-gradient(#130754 0% , #3b2f80 100%);
+      width:600px;
+      height:600px;
+      border-radius:12px;
+    }
+    
+   .head_name h2{
+      margin-bottom:30px;
+      color:#ffffff;
+      font-size:35px;
+      font-weight:400;
+      margin:auto;
+      text-align:center;
+      font-family:var(--fontpacifio-regular) ;
+  }
+  
+   .head_search{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top:30px;
+  }
+  
+  .head_searchinput input{
+    
+    border:none;
+    outline:none;
+    border-radius:40px;
+    text-align:center;
+    width:300px;
+    height:50px;
+    font-size:20px;
+    
+  }
+  .head_baricon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:20px;
+    height:20px;
+    border-radius:40px;
+    background:white;
+    font-size: 2px;
+    margin-left:10px;
+    padding:15px;
+    color:grey;
+    cursor:pointer;
+  }
+  .cityclimate{
+    margin:auto;
+    margin-top:20px;
+    width:fit-content;
+  } 
+  .cityclimate img{
+    width:150px;
+  }
+  .city_temp{
+    margin-top:20px;
+    text-align:center;
+  
+  }
+  .city_temp h2{
+    font-size:40px;
+    color:white;
+    font-family:var(--fontibm-bolditalic);
+  }
+  .city_name{
+    margin-top:10px;
+    text-align:center;
+    
+  }
+  .city_name h3{
+    font-size:30px;
+    color:white;
+    font-family:var(--fontibm-bolditalic);
+  }
+  .containers{
+    margin-top:30px;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .humidity{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .elements{
+    margin-left:30px;
+  }
+  
+  .humidity_temp{
+    font-size:20px;
+    color:white;
+    font-family: var(--fontibm-bolditalic);
+  }
+  .wind_rate{
+    
+      font-size:20px;
+      color:white;
+      font-family: var(--fontibm-bolditalic);
+    
+  }
+  .humidity_name{
+    font-size:20px;
+    color:white;
+    font-family:var(--fontibm-bolditalic);
+  }
+  .humidity_imgicon{
+    font-size: 80px;
+    color:white;
+  }
+  .wind_imgicon{
+    font-size:55px;
+    color:white;
+  }
